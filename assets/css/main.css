@@ -1758,14 +1758,14 @@ input, select, textarea {
 
 		.image.avatar48 {
 			width: 48px;
-			height: 58px;
+			height: auto;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
 				width: 48px;
-				height: 58px;
-				border-radius: 20%;
+				height: auto;
+				border-radius: 10%;
 			}
 		
 		.image.circle {
@@ -1780,6 +1780,15 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			width: 100%;
+		}
+		
+		.image.skill
+		{
+			display: block;
+			width: 100px;
+			height: 100px;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.image.featured {
